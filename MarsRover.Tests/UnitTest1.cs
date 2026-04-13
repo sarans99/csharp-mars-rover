@@ -1,16 +1,12 @@
-namespace MarsRover.Tests
-{
-    public class Tests
-    {
-        [SetUp]
-        public void Setup()
-        {
-        }
+using NUnit.Framework;
 
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
+namespace MarsRover.Tests;
+
+public class HelloWorldTests
+{
+    [Test]
+    public void Successfully_runs_a_test()
+    {
+        Assert.That(true, Is.True);
     }
 }
