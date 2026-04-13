@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarsRover.Console
+namespace MarsRover.App.RoverDomain
 {
-    internal class Position
-    {
-    }
+    public record Position(int X, int Y, CompassDirection Facing);
 }

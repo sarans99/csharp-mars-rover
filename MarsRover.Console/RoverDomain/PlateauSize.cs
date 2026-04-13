@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarsRover.Console
+namespace MarsRover.App.RoverDomain
 {
-    internal class PlateauSize
-    {
-    }
+    public record PlateauSize(int Width, int Height);
 }

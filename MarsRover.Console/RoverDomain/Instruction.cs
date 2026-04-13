@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarsRover.Console
+namespace MarsRover.App.RoverDomain
 {
-    internal class Instruction
+    public enum Instruction
     {
+        L,
+        R,
+        M
     }
 }
