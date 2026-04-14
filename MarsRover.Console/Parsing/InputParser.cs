@@ -20,7 +20,7 @@ namespace MarsRover.App.Parsing
                 throw new ArgumentException($"Plateau dimensions must be integers: '{input}'");
 
             if (width < 0 || height < 0)
-                throw new ArgumentException($"Plateau dimensions must be non-negative: '{input}'");
+                throw new ArgumentException($"Plateau dimensions must be positive: '{input}'");
 
             return new PlateauSize(width, height);
         }
